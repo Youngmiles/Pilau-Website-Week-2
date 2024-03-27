@@ -1,0 +1,396 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+ 
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 20px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+ul{
+    list-style: none;
+}
+
+header h2{
+    font-size: 32px;
+}
+
+header h2 span{
+    color: #f05d18;
+}
+
+header ul{
+display: flex;
+gap: 28px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-link{
+    color: #f05d18;
+}
+
+.homepage{
+    background-image: url(https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9vZHxlbnwwfHwwfHx8MA%3D%3D);
+    /* background-image: url(Pilauu.jpg); */
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    gap: 20px;
+    padding-left: 24px;
+}
+
+.homepage h1{
+    font-size: 50px;
+}
+
+.homepage p{
+    width: 21%;
+    font-size: 16px;
+}
+
+.home-button{
+    display: flex;
+    gap: 24px;
+}
+
+.home-button button{
+    padding: 6px 12px;
+}
+
+.home-button .order-1{
+    border: none;
+    outline: none;
+    background-color: #f05d18;
+    color: white;
+}
+
+.home-button .order-2{
+    background: none;
+    color: #f05d18;
+    border: 2px solid #f05d18;
+}
+
+.home-button .order-1:hover{
+    background: white;
+    color: #f05d18;
+}
+
+.home-button .order-2:hover{
+    border-color: white;
+    color: white;
+}
+
+/*About section style*/
+.about{
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    margin-top: 5%;
+}
+.ss{
+    border-radius: 22px;
+    height: 380px;
+    padding-top: 1%;
+}
+.aboutdata{
+    margin-left: 4%;
+    padding-top: 2.5%;
+}
+.tlt{
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    padding-bottom: 4%;
+}
+
+.mn{
+    font-size: 20px;
+    font-weight: 300; 
+}
+
+.about-button{
+    color: #e00c0c;
+    padding: 10px 12px;   
+}
+
+.about-button .abt{
+    outline: solid;
+    background-color: #f05d18;
+    padding: 10px 14px;
+    border: 8px solid #f05d18;
+    border-radius: 4px;
+    background-color: #f05d18;
+    color: white;
+    display: flex;
+    gap: 24px;
+}
+
+/* services section style */
+.service{
+    padding-top: 4%;
+    padding-bottom: 3%;
+}
+.ourserv{
+    font-size: 55px;
+    font-weight: 300;
+}
+.serv{
+    text-align: center;
+}
+.another{
+    padding-top: 1.4%;
+    font-size: 20px;
+    letter-spacing: 1.3px;
+}
+.gridfor3{
+    display: flex;
+    margin-top: 4%;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 40vh;
+}
+.freedel{
+    background-color: gray;
+    /* box-shadow: 2px black; */
+    margin-left: .4%;
+    margin-right: .4%;
+    text-align: center;
+    border-radius: 11px;
+}
+.icon{
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+    width: 30%;
+    margin-left: 40%;
+    margin-top: 5%;
+}
+.im1{
+    width: 80%;
+}
+.tl1{
+    font-size: 30px;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+.im2{
+    width: 75%;
+}
+.dtl{
+    padding-left: 5%;
+    padding-right: 5%;
+    letter-spacing: 1.75px;
+}
+
+.freedel:hover{
+    background-color: #f05d18;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/* Menu Section Style */
+.topictlt{
+    text-align: center;
+}
+.one{
+    font-size: 45px;
+    padding-top: 2.5%;
+    letter-spacing: 1.5px;
+}
+.two{
+    padding-top: 1.3%;
+    letter-spacing: 1.3px;
+    font-size: 14px;
+}
+.gridd{
+    margin-top: 1.2%;
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: space-between;
+    /* justify-content: space-around; */
+    padding-bottom: 5%;
+    padding-top: 1%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.griditem{
+    background-color: whitesmoke;
+    border-radius: 11px;
+    padding-bottom: 1%;
+    /* box-shadow: 2px 2px black; */
+}
+.last{
+    display: flex;
+    padding-top: 8.5%;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 15%;
+}
+.ordernow{
+    padding: 13%;
+    color: white;
+    background-color: orangered;
+    width: 130%;
+    border: none;
+    border-radius: 21px;
+}
+
+.nme{
+    padding-left: 5%;
+    font-size: 30px;
+    letter-spacing: 1.5px;
+}
+.cash{
+    font-weight: 800;
+}
+.trt{
+    font-weight: 100;
+    padding-left: 5%;
+    padding-top: 2%;
+}
+
+/* Review section style */
+.review{
+    padding-top: 1%;
+}
+.says p{
+    font-size: 40px;
+    letter-spacing: 1.5px;
+    padding-left: 17.5%;
+    font-weight: 300;
+    line-height: 135%;
+}
+
+.testimonioals{
+    display: flex;
+    padding-left: 17.5%;
+    justify-content: space-between;
+    padding-right: 25%;
+    padding-top: .5%;
+    padding-bottom: 2%;
+    gap: 60px;
+}
+.first{
+    background-color: gray;
+    color: white;
+    margin-top: .3%;
+    padding: 2%;
+}
+
+.second{
+    background-color: gray;
+    color: white;
+    margin-top: .3%;
+    padding: 2%;
+
+}
+
+.ourr{
+    letter-spacing: 1.5px;
+    font-size: 15px;
+}
+.rates{
+    display: flex;
+}
+.imawer{
+    display: flex;
+    padding-top: 5%;
+}
+.profile{
+    width: 75%;
+}
+.rt{
+    width: 5.5%;
+}
+.mwisho{
+    display: flex;
+    background-color: coral;
+    margin-left: 15%;
+    margin-right: 5%;
+    border-radius: 11px;
+    margin-top: 1.5%;
+}
+.lastlt{
+    border-radius: 11px;
+    height: 390px;
+    position: relative;
+}
+.datal{
+    padding-left: 10%;
+    padding-right: 15%;
+    padding-top: 4%;
+    letter-spacing: 1.5px;
+    color: white;
+}
+.fone{
+     font-size: 50px;
+}
+.publish{
+    font-size: 15px;
+    font-weight: 100;
+    padding-top: 3%;
+    line-height: 200%;
+}
+.explore{
+    padding: 3%;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    background-color: coral;
+    color: white;
+    border-radius: 35px;
+    border: 2px solid white;
+    margin-top: 3%;
+}
+
+/* Footer style section */
+.footer{
+background-color: rgb(30, 10, 0);
+color: #ffffff;
+}
+
+.foo{
+margin-top: 45px;
+}
+
+.footer h2 span{
+    color: #f05d18;
+}
+
+.par{
+margin-top: 45px;
+display: flex;
+padding: 10px;
+}
+
+.comp{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.rights{
+    justify-content: flex;
+    align-items: center;
+}
+
+hr{
+    width: 100%;
+}
